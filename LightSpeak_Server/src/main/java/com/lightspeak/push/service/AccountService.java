@@ -12,7 +12,9 @@ public class AccountService {
     //Get:http://localhost:8080/api/account/login
     @GET
     @Path("/login")
-    private String get(){
+    public String get() {
         return "the login page is built successfully";
     }
+
+
 }
