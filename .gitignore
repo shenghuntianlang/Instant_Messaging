@@ -55,8 +55,8 @@ freeline/
 freeline_project_description.json
 
 #ignored .idea
-LightSpeak_Server\.idea
-LigntSpeak_App\.idea
+LightSpeak_Server/.idea
+LigntSpeak_App/.idea
 
 #ignored build
-LightSpeak_Server\build
+LightSpeak_Server/build
