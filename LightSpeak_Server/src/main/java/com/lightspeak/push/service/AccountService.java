@@ -6,11 +6,12 @@ import javax.ws.rs.Path;
 /**
  * 逻辑处理类
  */
-
+//http://localhost:8080/api/account/...
 @Path("/account")
 public class AccountService {
+    //Get:http://localhost:8080/api/account/login
     @GET
-    @Path("login")
+    @Path("/login")
     private String get(){
         return "the login page is built successfully";
     }
