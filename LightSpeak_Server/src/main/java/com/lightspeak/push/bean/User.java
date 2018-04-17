@@ -2,7 +2,7 @@ package com.lightspeak.push.bean;
 
 public class User {
     private String name;
-    private boolean gender;
+    private int gender;
 
     public String getName() {
         return name;
@@ -12,11 +12,11 @@ public class User {
         this.name = name;
     }
 
-    public boolean isGender() {
+    public int getGender() {
         return gender;
     }
 
-    public void setGender(boolean gender) {
+    public void setGender(int gender) {
         this.gender = gender;
     }
 }

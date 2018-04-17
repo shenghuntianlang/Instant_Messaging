@@ -21,6 +21,8 @@ dependencies {
     implementation 'org.glassfish.jersey.core:jersey-client:2.27'
     implementation 'org.glassfish.jersey.core:jersey-server:2.27'
     implementation 'org.glassfish.jersey.containers:jersey-container-servlet:2.27'
+    implementation 'org.glassfish.jersey.inject:jersey-hk2:2.27'
+
     // 也是一个 Json 解析库
     implementation 'org.glassfish.jersey.media:jersey-media-json-jackson:2.27'
 
